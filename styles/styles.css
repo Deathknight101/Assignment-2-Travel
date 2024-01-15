@@ -202,6 +202,7 @@
     display: flex;
     justify-content: center;
     margin-top: 100px;
+
 }
 
 .choose-destination {
@@ -313,6 +314,138 @@
     top: 38%;
 }
 
+.why-us-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.why-us-texts {
+    text-align: center;
+}
+
+.why-us-texts h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.why-us-texts p {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.row1-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.row2-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.card-1 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.card-1 img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 32px;
+
+}
+
+.card-1 h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-1 p {
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.card-3 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.card-3 img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 32px;
+
+}
+
+.card-3 h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-3 p {
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.card-2 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.card-2 img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 32px;
+
+}
+
+.card-2 h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-2 p {
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
 
 @media screen and (max-width:600px) {
 
@@ -328,7 +461,9 @@
     .destination-top-texts,
     .row1,
     .row2,
-    .row3 {
+    .row3,
+    .why-us-container
+     {
         flex-direction: column;
         align-items: center;
 
@@ -457,6 +592,7 @@
         font-size: 20px;
         font-weight: 700;
     }
+
     .Indonesia {
         top: 70%;
         left: 38%;
@@ -464,6 +600,7 @@
         font-size: 20px;
         font-weight: 700;
     }
+
     .Srilanka {
         top: 12%;
         left: 38%;
@@ -471,6 +608,7 @@
         font-size: 20px;
         font-weight: 700;
     }
+
     .North-America {
         top: 45%;
         left: 30%;
@@ -478,6 +616,7 @@
         font-size: 20px;
         font-weight: 700;
     }
+
     .Kashmir {
         top: 80%;
         left: 38%;
@@ -485,6 +624,7 @@
         font-size: 20px;
         font-weight: 700;
     }
+
     .Bangladesh {
         top: 15%;
         left: 34%;
@@ -492,6 +632,7 @@
         font-size: 20px;
         font-weight: 700;
     }
+
     .Bandarban {
         top: 70%;
         left: 34%;
@@ -500,6 +641,95 @@
         font-weight: 700;
     }
 
+    .why-us-texts h1 {
+        color: #131318;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+    }
 
+    .why-us-texts p {
+        width: 309px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
 
+    .card-1 {
+        width: 280px;
+        height: 289px;
+    }
+
+    .card-1 img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .card-1 h1 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .card-1 p {
+        font-weight: 400;
+        line-height: 24px;
+        width: 271px;
+        font-size: 14px;
+    }
+
+    .card-2 {
+        width: 280px;
+        height: 289px;
+    }
+
+    .card-2 img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .card-2 h1 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .card-2 p {
+        font-weight: 400;
+        line-height: 24px;
+        width: 271px;
+        font-size: 14px;
+    }
+
+    .card-3 {
+        width: 280px;
+        height: 289px;
+    }
+
+    .card-3 img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .card-3 h1 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .card-3 p {
+        font-weight: 400;
+        line-height: 24px;
+        width: 271px;
+        font-size: 14px;
+    }
+
+    .row1-card {
+       flex-direction: column;
+       align-items: center;
+
+       
+
+    }
+    .row2-card{
+        flex-direction: column;
+
+    }
 }

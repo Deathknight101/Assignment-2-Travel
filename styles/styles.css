@@ -691,7 +691,7 @@
     flex-shrink: 0;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
-    padding: 40px;
+    padding: 32px;
     background-color: #D9EDBF;
 
 
@@ -703,7 +703,7 @@
     flex-shrink: 0;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
-    padding: 40px;
+    padding: 32px;
     background: #FFB996
 }
 
@@ -713,7 +713,7 @@
     flex-shrink: 0;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
-    padding: 40px;
+    padding: 32px;
     background: #F5EEE6;
 }
 
@@ -723,7 +723,7 @@
     flex-shrink: 0;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
-    padding: 40px;
+    padding: 32px;
     background: #E6A4B4;
 }
 

@@ -122,8 +122,13 @@
     gap: 24px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
+    
 }
-
+.where{
+    width: 200px;
+    background-color: #fff;
+    border-radius:8px ;
+}
 .banner-input input {
     width: 174px;
     height: 52px;
@@ -131,13 +136,25 @@
     background: #FFF;
     border: none;
 }
+.when, .time{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+.when img, .time img{
+    margin-right: 10px;
+}
+
 
 .banner-input ::placeholder {
     padding-left: 16px;
 }
 
 .banner-input button {
-    width: 174px;
+    width: 200px;
     height: 52px;
     border-radius: 8px;
     background: #FF5400;
@@ -849,6 +866,13 @@
         width: 255px;
         height: 52px;
 
+    }
+    .where{
+        margin-right: 0px;
+        width: 289px;
+    }
+    .banner-input button{
+        width: 295px;
     }
 
     .popular-tour {

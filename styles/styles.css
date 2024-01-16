@@ -1,3 +1,8 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
 * {
     font-family: "Mulish", sans-serif;
 }
@@ -1122,6 +1127,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 0px;
     }
 
     .newsletter-left {
@@ -1129,7 +1135,11 @@
         margin-top: 24px;
         align-items: center;
         justify-content: center;
+        margin-top: 0px;
 
+    }
+    .newsletter-right img{
+        width: 350px;
     }
 
     .newsletter-left h1 {
@@ -1234,7 +1244,7 @@
 
     }
     .footer-content{
-        width: 365px;
+        width: 374px;
     }
 
     .rights p {
@@ -1243,12 +1253,11 @@
     }
 
 
-    .fifth-cards {
-        margin-right: 0;
-    }
+
 
     .airlines-content {
         display: flex;
+        margin-bottom: 0px;
     }
 
     .airlines-head {

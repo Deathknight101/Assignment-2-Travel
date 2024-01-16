@@ -1233,71 +1233,15 @@
         width: 335px;
 
     }
+    .footer-content{
+        width: 365px;
+    }
 
     .rights p {
         font-size: 14px;
+        width: 345px;
     }
 
-    .fifth-heading {
-        color: #131318;
-        text-align: center;
-        font-family: Mulish;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-    }
-
-    .fifth-description {
-        width: 309px;
-        color: rgba(19, 19, 24, 0.70);
-        text-align: center;
-        font-family: Mulish;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        /* 171.429% */
-    }
-
-    .fifth-first-card,
-    .fifth-second-card {
-        width: 335px;
-        height: 500px;
-        flex-shrink: 0;
-        background-position: 50% 50%;
-        border-radius: 16px;
-        margin: 0;
-    }
-
-    .first-card-design,
-    .second-card-design {
-        width: 303px;
-        height: 297px;
-        flex-shrink: 0;
-        margin: 56px 0;
-        margin-left: 5px;
-        padding: 0;
-        padding-left: 10px;
-        margin-top: 170px;
-    }
-
-    .inside-title {
-        color: #131318;
-        font-family: Mulish;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-    }
-
-    .inside-description {
-        width: 254px;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        margin: 0;
-    }
 
     .fifth-cards {
         margin-right: 0;
